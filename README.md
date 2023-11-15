@@ -9,4 +9,5 @@ Offline and online sales data from a retail company.
 - File offline_sales.csv : InvoiceNo [id for invoice], InvoiceDate [invoice date], StockCode [id for product], Quantity [total purchase]
 - Online_sales.csv file: Transcation ID [id for online transactions], Date [transaction date], Product SKU [code for product], Product [product description], Product Category [product category], Quantity [total purchases], Avg. Price [average price per seller], Revenue [total transaction value (excluding tax)], Tax [transaction tax], Delivery [delivery costs]
 -Product.csv : Product SKU [code for product] StockCode [id for product]
+
 Columns that have the same meaning: StockCode in Product.csv and StockCode in Offline_sales.csv
